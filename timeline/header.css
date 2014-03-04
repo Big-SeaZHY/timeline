@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin:0px auto;
+	padding:0px;
+}
+body {
+	
+    text-align: center;
+	
+}
+/**********************顶部******************/
+#header{
+	width:960px;
+	height:80px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#aline{
+	width:960px;
+	height:1px;
+	background-image:url(images/aline.gif);
+	background-repeat:no-repeat;
+	
+}
+#middle{
+	width:960px;
+	height:79px;
+	background-image:url(images/repeat.png);
+	background-repeat:repeat-x 100%;
+}
+#logo{
+	width:173px;
+	height:79px;
+	background-image:url(images/jiechuxiaoyou.gif);/*在这里更改顶部图标*/
+	background-repeat:no-repeat;
+	float:left;
+}
+
+#project{
+	width:444px;
+	height:52px;
+	padding-left:290px;
+	padding-top:27px;
+	float:left;
+}
+
+#alumnus{
+	width:81px;
+	height:41px;
+	border-left:1px solid #D6D3CE;
+	float:left;
+	padding-left:13px;
+	padding-top:11px;
+}
+#alumnus_txt{
+	width:65px;
+	height:27px;
+	background-image:url(images/xiaoyou.gif);
+	background-repeat:no-repeat;
+	float:left;
+	
+}
+#archetype{
+	width:81px;
+	height:41px;
+	border-left:1px solid #D6D3CE;
+	float:left;
+	padding-left:13px;
+	padding-top:11px;
+}
+#archetype_txt{
+	width:65px;
+	height:27px;
+	background-image:url(images/bangyang.gif);
+	background-repeat:no-repeat;
+	float:left;
+}	
+#team{
+	width:81px;
+	height:41px;
+	border-left:1px solid #D6D3CE;
+	float:left;
+	padding-left:13px;
+	padding-top:11px;
+}
+#team_txt{
+	width:65px;
+	height:27px;
+	background-image:url(images/tuandui.gif);
+	background-repeat:no-repeat;
+	float:left;
+}
+#graduate{
+	width:95px;
+	height:41px;
+	border-left:1px solid #D6D3CE;
+	border-right:1px solid #D6D3CE;
+	float:left;
+	padding-left:13px;
+	padding-top:11px;
+}
+#graduate_txt{
+	width:83px;
+	height:27px;
+	background-image:url(images/biyesheng.png);
+	background-repeat:no-repeat;
+	float:left;
+}

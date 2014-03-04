@@ -1,0 +1,138 @@
+@charset "utf-8";
+/*此部分每个css文件都应该有，目的是居中网页*/
+/**{
+	margin:0;
+	padding:0;
+}
+*/
+body {
+	text-align:center;	
+}
+#Figures {
+/*注意：在每个网页的body标签内都有一个id="main"的div*/
+	width:960px;/*网页宽度*/
+	height:271px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+	background-color:#f4f3ef;
+	
+}
+
+/*******************************************/
+/*此部分每个css文件都应该有，目的是消除所有链接的效果*/
+a{
+	text-decoration:none;
+}
+/*******************************************/
+
+
+
+#lower{
+	width:960px;
+	height:150px;
+	padding-top:0px;
+	padding-left:0px;
+	background-color:#f4f3ef;
+
+}
+
+#lower li{
+	list-style-type:none;
+	line-height:31px;
+	
+}
+
+#lower a{
+	text-decoration:none;
+	color:#616161;
+	font-weight:bold;
+	font-size:17px;
+}
+#lower p{
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+	font-size:17px;
+}
+#lower_one{
+	width:180px;
+	height:116px;
+	float:left;
+	text-align:left;
+}
+#first_one{
+	width:100px;
+	height:35px;
+	background-repeat:no-repeat;
+	background-position:center;
+	padding-left:25px;
+	padding-top:15px;
+}
+#first_two{
+	padding-left:52px;
+	padding-top:10px;
+}
+#lower_two{
+	background-image:none;
+	width:140px;
+	height:116px;
+	float:left;
+}
+#second_one{
+	width:100px;
+	height:35px;
+	background-repeat:no-repeat;
+	background-position:center;
+	padding-left:20px;
+	padding-top:15px;
+}
+#second_two{
+	padding-top:10px;
+}
+#lower_three{
+	background-image:none;
+	width:180px;
+	height:116px;
+	text-align:left;
+	float:left;
+}
+#third_one{
+	width:100px;
+	height:35px;
+	background-repeat:no-repeat;
+	background-position:center;
+	padding-left:20px;
+	padding-top:15px;
+}
+#third_two{
+	padding-top:10px;
+	padding-left:50px;
+}
+#lower_four{
+	text-align:left;
+	background-image:none;
+	width:460px;
+	height:116px;
+	float:left;
+	padding-top:15px;
+}
+#four_two{
+	padding-top:10px;
+	padding-left:50px;
+}
+#lower_five{
+	width:960px;
+	height:36px;
+	background-image:url(images/bottom_support.png);
+	background-color:#f4f3ef;
+	background-repeat:no-repeat;
+	background-position:center;
+	padding-top:85px;
+}
+
+
+
+
+
+

@@ -1,0 +1,368 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+
+/************个人详细************/
+
+.background{
+	background-color:#e0dfda;
+	width:960px;
+	height:1000px;
+	border-top:2px solid #D2CFC8;
+	border-bottom:2px solid #D2CFC8;
+	padding-top:24px;
+}
+#detail{
+	width:839px;
+	height:922px;
+	border-radius: 15px;
+	border-color:#d8d5d0;
+	background-color:#FFFFFF;
+	-webkit-box-shadow: 10px 10px 12px #999;
+	padding-top:30px;
+	padding-left:25px;
+}
+.detail_photo{
+	width:260px;
+	height:260px;
+	background-color:#ec5251;
+	border-radius: 15px;
+	float:left;
+}
+#detail_txt{
+	width:444px;
+	height:807px;
+	padding-left:20px;
+	padding-top:30px;
+	float:left;
+}
+#detail_txt_title{
+	width:300px;
+	height:70px;
+	font-size:50px;
+	font-family:"微软雅黑","宋体";
+	
+	
+}
+#detail_txt_main{
+	width:420px;
+	height:650px;
+	font-size:18px;
+	font-family:"微软雅黑","宋体";
+}
+#detail_page{
+	width:65px;
+	height:823px;
+	float:left;
+	padding-top:40px;
+}
+#detail_page_up{
+	width:23px;
+	height:24px;
+	background-image:url(images/up.gif);
+	background-repeat:no-repeat;
+}
+#detail_page_down{
+	width:23px;
+	height:24px;
+	margin-top:731px;
+	background-image:url(images/down.gif);
+	background-repeat:no-repeat;
+}
+#detail_back{
+	width:65px;
+	height:35px;
+	background-image:url(images/back.png);
+	background-repeat:no-repeat;
+	margin-top:35px;
+}
+.team_background{
+	background-color:#e0dfda;
+	width:936px;
+	height:830px;
+	border-top:2px solid #D2CFC8;
+	border-bottom:2px solid #D2CFC8;
+	padding-top:24px;
+	padding-left:24px;
+}
+.team_detail{
+	width:665px;
+	height:770px;
+	border-radius: 15px;
+	border-color:#d8d5d0;
+	background-color:#FFFFFF;
+	-webkit-box-shadow: 10px 10px 12px #999;
+	padding-top:50px;
+	padding-left:35px;
+	float:left;
+}
+#team_science{
+	width:240px;
+	height:80px;
+	font-size:50px;
+	font-family:"微软雅黑"，"宋体";
+	color:#0a74be;
+	float:left;
+	
+}
+.team_list{
+	height:566px;
+	width:580px;
+	float:left;
+	
+	
+	
+}
+.team_list_name{
+	height:566px;
+	width:500px;
+	float:left;	
+}
+.team_list_name a{
+	text-decoration:none;
+	font-size:20px;
+	font-family:"微软雅黑";	
+}
+
+#team_page{
+	width:65px;
+	height:823px;
+	float:left;
+	padding-top:40px;
+}
+#team_page_up{
+	width:23px;
+	height:24px;
+	background-image:url(images/up.gif);
+	background-repeat:no-repeat;
+}
+#team_page_down{
+	width:23px;
+	height:24px;
+	margin-top:450px;
+	background-image:url(images/down.gif);
+	background-repeat:no-repeat;
+}
+
+.team_name{
+	width:220px;
+	height:400px;
+	float:left;
+}
+.team_list1{
+	width:90px;
+	height:190px;
+	padding-top:210px;
+	padding-left:20px;
+	float:left;
+}
+.team__list1_venture{
+	width:92px;
+	height:92px;
+	background-image:url(images/chuangye.png);
+	background-repeat:no-repeat;
+}
+.team_list1_teach{
+	width:92px;
+	height:93px;
+	background-image:url(images/zhijiao.png);
+	background-repeat:no-repeat;
+	margin-top:10px;
+}	
+.team_list2{
+	width:110px;
+	height:200px;
+	padding-top:170px;
+	
+	float:left;
+}
+.team_list2_challenge{
+	width:92px;
+	height:92px;
+	background-image:url(images/challenge.png);
+	background-repeat:no-repeat;
+}
+.team_list2_research{
+	width:92px;
+	height:93px;
+	background-image:url(images/keyan.png);
+	background-repeat:no-repeat;
+	margin-top:10px;
+}
+
+#team_detail_txt{
+	width:300px;
+	height:807px;
+	padding-left:20px;
+	padding-top:30px;
+	float:left;
+}
+#team_detail_name{
+	width:250px;
+	height:70px;
+	font-size:45px;
+	font-family:"微软雅黑","宋体";
+	float:left;
+}
+#team_detail_txt_main{
+	width:280px;
+	height:650px;
+	font-size:18px;
+	font-family:"微软雅黑","宋体";
+}
+#team_detail_page{
+	width:65px;
+	height:763px;
+	float:left;
+	padding-top:100px;
+}
+#team_detail_page_up{
+	width:23px;
+	height:24px;
+	background-image:url(images/up.gif);
+	background-repeat:no-repeat;
+}
+#team_detail_page_down{
+	width:23px;
+	height:24px;
+	margin-top:460px;
+	background-image:url(images/down.gif);
+	background-repeat:no-repeat;
+}
+#team_detail_back{
+	width:65px;
+	height:35px;
+	background-image:url(images/mulu.png);
+	background-repeat:no-repeat;
+	margin-top:35px;
+}
+
+
+
+/***************/
+
+
+
+#footer {
+/*注意：在每个网页的body标签内都有一个id="main"的div*/
+	width:960px;/*网页宽度*/
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+
+
+	
+}
+
+/*******************************************/
+/*此部分每个css文件都应该有，目的是消除所有链接的效果*/
+a{
+	text-decoration:none;
+}
+/*********************榜样详细**********************/
+#goodPeo{
+	width:960px;
+	height:875px;
+	background-color:#f4f3ef;
+
+	
+}
+
+#top_time{
+	width:588px;
+	height:128px;
+	padding-left:392px;
+	padding-top:50px;
+}
+
+#left_button{
+	width:136px;
+	height:697px;
+	position:relative;
+	float:left;
+}
+#left_button_two{
+	width:64px;
+	height:58px;
+	background-repeat:no-repeat;
+	padding-top:300px;
+	}
+
+#introduction{
+	width:724px;
+	height:634px;
+	background-image:url(images/introduction.png);
+	background-repeat:no-repeat;
+	padding-left:-50px;
+	
+	float:left;
+}
+#photo{
+	width:412px;
+	height:412px;
+	background-image:url(images/intro.png);
+	background-repeat:no-repeat;
+	position:relative;
+	left:-85px;
+	top:-85px;
+	float:left;
+	padding-left:59px;
+	padding-top:59px;
+	
+}
+#photo_two{
+	width:284px;
+	height:284px;
+	float:left;
+	
+
+	
+}
+ 
+
+p.name{
+	padding-top:10px;
+	
+}
+#more{
+	width:69px;
+	height:25px;
+	background-image:url(images/more.png);
+	background-repeat:no-repeat;
+	margin-top:350px;
+	padding-right:80px;
+	float:right;
+}
+#right_button{
+
+	width:100px;
+	height:697px;
+	
+	float:left;
+
+}
+
+#right_button_two{
+	background-image:url(images/right.png);
+	background-repeat:no-repeat;
+	width:64px;
+	height:58px;
+	position:relative;
+	right:-20px;
+	top:283px;
+	float:left;
+	
+	}
+
+
+
+
+
+
+
+
+
+
+
+

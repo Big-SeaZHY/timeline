@@ -1,0 +1,619 @@
+/*
+* Bootstrap v2.0.3
+*
+* Copyright 2012 Twitter, Inc
+* Licensed under the Apache License v2.0
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Designed and built with all the love in the world @twitter by @mdo and @fat.
+*/
+.clearfix {
+	*zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: "";
+}
+.clearfix:after {
+	clear: both;
+}
+.hide-text {
+	font: 0/0 a;
+	color: transparent;
+	text-shadow: none;
+	background-color: transparent;
+	border: 0;
+}
+.input-block-level {
+	display: block;
+	width: 100%;
+	min-height: 28px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+	display: block;
+}
+audio,
+canvas,
+video {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+audio:not([controls]) {
+	display: none;
+}
+html {
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+a:focus {
+	outline: thin dotted #333;
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
+}
+a:hover,
+a:active {
+	outline: 0;
+}
+sub,
+sup {
+	position: relative;
+	font-size: 75%;
+	line-height: 0;
+	vertical-align: baseline;
+}
+sup {
+	top: -0.5em;
+}
+sub {
+	bottom: -0.25em;
+}
+img {
+	max-width: 100%;
+	vertical-align: middle;
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+}
+button,
+input,
+select,
+textarea {
+	margin: 0;
+	font-size: 100%;
+	vertical-align: middle;
+}
+button,
+input {
+	*overflow: visible;
+	line-height: normal;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	cursor: pointer;
+	-webkit-appearance: button;
+}
+input[type="search"] {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	-webkit-appearance: textfield;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+	-webkit-appearance: none;
+}
+textarea {
+	overflow: auto;
+	vertical-align: top;
+}
+
+
+/* =============== SITE CSS =============== */
+
+
+.container {
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	*zoom:1;
+	background-color:#f4f3ef;
+}
+
+h1 {
+	clear:left;
+	color:#7DBADF;
+	font-family:Palatino,"Times New Roman", Times, serif;
+	font-size:36px;
+	font-weight:400;
+	margin:0;
+}
+
+h2 {
+	font-family:Palatino,"Times New Roman", Times, serif;
+	font-size:22px;
+	font-weight:400;
+	margin:5px 0;
+	letter-spacing:.1em;
+}
+
+h3 {
+	font-size:1.6em;
+	margin:10px 0 10px 10px;
+}
+
+a:link,a:visited {
+	color:#7097af;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#7DBADF;
+}
+
+a img {
+	border:none;
+}
+
+p {
+	margin:0 0 10px 8px;
+	font-size:1.3em;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:400;
+	line-height:1.6em;
+}
+
+.clear {
+	clear:both;
+	line-height:0;
+	font-size:0;
+}
+
+/* ============ TIMELINE ============= */
+
+div#timelineContainer {
+	border-left:2px solid #ccc;
+
+	width:900px;
+}
+
+div.timelineToggle {
+	float:right;
+	margin-right:0;
+	white-space:nowrap;
+}
+
+a.expandAll {
+	color:#ccc!important;
+	cursor:pointer;
+	background:#000;
+	border:none;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	font-size:12px;
+	padding:3px 5px;
+}
+
+a.expandAll:hover {
+	border:none!important;
+	color:#7DBADF!important;
+	cursor:pointer;
+}
+
+div.timelineMajor {
+	clear:left;
+	float:left;
+	margin:0 0 12px;
+	width:900px;
+}
+
+	.timelineMajor h2 {
+		background:url(../images/timeline_century_tick.gif) left center no-repeat;
+		color:#7097AF!important;
+		cursor: pointer;
+		font-family:Palatino,"Times New Roman", Times, serif;
+		font-size:3em!important;
+		font-weight:400!important;
+		margin:0 0 10px!important;
+		padding:4px 4px 4px 20px!important;
+	}
+
+	.timelineMajor h2 span {
+		background:#ccc;
+		border:none;
+		-webkit-border-radius:4px;
+		-moz-border-radius:4px;
+		border-radius:4px;
+		color:#131313;
+		letter-spacing:.1em;
+		line-height:1.7em;
+		padding:3px 5px 1px;
+	}
+
+	.timelineMajor h2 a:hover {
+		border-bottom:none;
+		color:#00baff!important;
+	}
+
+dl.timelineMinor_1 {
+	clear:left;
+	float:left!important;
+	margin:0 12px 0 0!important;
+	padding:4px 4px 4px 0!important;
+	position:relative;
+	width:880px;
+}
+
+	.timelineMinor_1 dt {
+		background:url(../images/timeline_decade_tick.gif) left center no-repeat;
+		clear:left;
+		font-size:1.6em!important;
+		list-style-type:none!important;
+		line-height:1.2em;
+		margin:0 0 12px!important;
+		padding:0 0 0 24px!important;
+		white-space:nowrap;
+	}
+
+		.timelineMinor_1 dt a {
+			color:#999;
+			cursor:pointer;
+		}
+
+		.timelineMinor_1 dt a.closed {
+			color:#999;
+			font-size:1em;
+			margin-left:0;
+		}
+
+		.timelineMinor_1 dt a.open {
+			color:#7DBADF;
+		}
+
+		.timelineMinor_1 dt a:hover {
+			color:#7DBADF;
+		}
+
+	.timelineMinor_1 dd {
+		padding-left:24px;
+		width:100%;
+	}
+
+		.timelineMinor_1 dd h3 {
+			color:#FFF;
+			clear:both;
+			float:left;
+			font-size:1.5em!important;
+			margin:0;
+			white-space:nowrap;
+		}
+
+dl.timelineMinor {
+	clear:left;
+	float:left!important;
+	margin:0 12px 0 0!important;
+	padding:4px 4px 4px 0!important;
+	position:relative;
+	width:880px;
+}
+
+	.timelineMinor dt {
+		background:url(../images/timeline_decade_tick.gif) left center no-repeat;
+		clear:left;
+		font-size:1.6em!important;
+		list-style-type:none!important;
+		line-height:1.2em;
+		margin:0 0 12px!important;
+		padding:0 0 0 24px!important;
+		white-space:nowrap;
+	}
+
+		.timelineMinor dt a {
+			color:#999;
+			cursor:pointer;
+		}
+
+		.timelineMinor dt a.closed {
+			color:#999;
+			font-size:1em;
+			margin-left:0;
+		}
+
+		.timelineMinor dt a.open {
+			color:#7DBADF;
+		}
+
+		.timelineMinor dt a:hover {
+			color:#7DBADF;
+		}
+
+	.timelineMinor dd {
+		padding-left:24px;
+		width:100%;
+	}
+
+		.timelineMinor dd h3 {
+			color:#FFF;
+			clear:both;
+			float:left;
+			font-size:1.5em!important;
+			margin:0;
+			white-space:nowrap;
+		}
+.timelineEvent p {
+	clear:left;
+	float:left;
+	line-height:1.5em!important;
+	margin:6px 0 10px;
+	width:500px;
+}
+
+.timelineEvent h4 {
+	clear:left;
+	float:left;
+	font-size:1.4em!important;
+	font-weight:400;
+	margin:10px 0 0;
+	padding:0 0 0 20px!important;
+}
+
+.timelineEvent blockquote {
+	clear:left;
+	float:left;
+	padding:0 30px;
+	width:400px;
+}
+
+.timelineEvent blockquote * {
+	float:none;
+	width:400px;
+}
+
+.timelineEvent ul.moreInfo {
+	clear:left;
+	float:left;
+	line-height:1.2em;
+	list-style-type:none;
+	margin:0!important;
+	padding:0!important;
+	width:100%;
+}
+
+.timelineEvent ul.moreInfo li {
+	clear:left;
+	background:none!important;
+	font-size:1em!important;
+	line-height:1.5em;
+	margin:8px 0!important;
+	padding:0 0 0 20px!important;
+}
+
+	.timelineEvent ul.moreInfo li a:link,.timelineEvent ul.moreInfo li a:visited {
+		color:#7097af!important;
+	}
+
+	.timelineEvent ul.moreInfo li a:hover {
+		color:#7DBADF!important;
+	}
+
+.timelineEvent div.media {
+	float:right;
+	padding:0 0 12px;
+	width:300px;
+}
+
+	.timelineEvent .media img {
+		border:2px solid #000;
+		margin:0;
+	}
+
+	.timelineEvent .media p {
+		font-size:1.2em;
+		margin:0!important;
+		padding:0!important;
+	}
+
+	.timelineEvent .media a:link,.timelineEvent .media a:visited {
+		border:none!important;
+		color:#ab221b!important;
+	}
+
+	.timelineEvent .media a:hover {
+		color:#7DBADF!important;
+	}
+
+	.timelineEvent .media p span.source {
+		font-style:italic;
+	}
+	
+	
+#summary{
+	width:910px;
+	height:270px;
+	background-color:#ECEAE5;
+	border-top:2px solid #D2CFC8;
+	border-bottom:2px solid #D2CFC8;
+	padding-top:30px;
+	padding-left:50px;
+}
+
+#summary_title{
+	width:300px;
+	height:50px;
+	font-size:40px;
+	font-family:"微软雅黑","宋体";
+	float:left;
+	text-align:left;
+}
+#summary_txt{
+	width:700px;
+	height:190px;
+	font-size:20px;
+	font-family:"微软雅黑","宋体";
+	float:left;
+	margin-top:30px;
+	text-align:left;
+}
+
+/****************查看更多***********/
+
+.more-feed{
+	display:block;
+	width:960px;
+	text-align:center;
+	font-size:30px;
+	font-weight:bold;
+	border:1px splid;
+	background-color:#F0F5F8;
+	background-position:center;
+	height:35px;
+	line-height:35px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+/*************************底部**************************/
+#figures {
+/*注意：在每个网页的body标签内都有一个id="main"的div*/
+	width:960px;/*网页宽度*/
+	height:271px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+	background-color:#f4f3ef;
+	
+}
+
+/*******************************************/
+/*此部分每个css文件都应该有，目的是消除所有链接的效果*/
+a{
+	text-decoration:none;
+}
+/*******************************************/
+
+
+
+#lower{
+	width:960px;
+	height:160px;
+	padding-top:0px;
+	padding-left:0px;
+	background-color:#f4f3ef;
+
+}
+
+#lower li{
+	list-style-type:none;
+	line-height:31px;
+	
+}
+
+#lower a{
+	text-decoration:none;
+	color:#616161;
+	font-weight:bold;
+	font-size:17px;
+}
+#lower p{
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+	font-size:17px;
+}
+#lower_one{
+	width:180px;
+	height:116px;
+	float:left;
+	text-align:left;
+}
+#first_one{
+	width:100px;
+	height:35px;
+	background-repeat:no-repeat;
+	background-position:center;
+	padding-left:88px;
+	padding-top:15px;
+}
+#first_two{
+
+	padding-left:50px;
+}
+#lower_two{
+	background-image:none;
+	width:140px;
+	height:116px;
+	float:left;
+}
+#second_one{
+	width:100px;
+	height:35px;
+	background-repeat:no-repeat;
+	background-position:center;
+	padding-left:70px;
+	padding-top:15px;
+}
+#second_two{
+	padding-left:38px;
+}
+#lower_three{
+	background-image:none;
+	width:180px;
+	height:116px;
+	text-align:left;
+	float:left;
+}
+#third_one{
+	width:100px;
+	height:35px;
+	background-repeat:no-repeat;
+	background-position:center;
+	padding-left:88px;
+	padding-top:15px;
+}
+#third_two{
+	padding-left:55px;
+}
+#lower_four{
+	text-align:left;
+	background-image:none;
+	width:460px;
+	height:116px;
+	float:left;
+	padding-top:15px;
+}
+#four_two{
+	padding-top:10px;
+	padding-left:50px;
+}
+#lower_five{
+	width:960px;
+	height:36px;
+	background-image:url(images/bottom_support.png);
+	background-color:#f4f3ef;
+	background-repeat:no-repeat;
+	background-position:center;
+	padding-top:85px;
+}
